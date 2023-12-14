@@ -1,0 +1,119 @@
+<html>
+    <body>
+<a herf="https://repani145.github.io/task.main/">MAIN PAGE</a>
+<fieldset>
+        <legend><h2>REGISTRATION FORM</h2></legend>
+            <table>
+                <form>
+                <tr>
+                    <th>
+                        <label for="fname">First Name</label>
+                    </th>
+                    <td>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="lname">Last Name</label>
+                    </th>
+                    <td>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name(optional)" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="mail">Email</label>
+                    </th>
+                    <td>
+                        <input type="email" name="mail" id="mail" placeholder="enter your email id" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pnum">Phone Number</label>
+                    </th>
+                    <td>
+                        <input type="tel" name="pnum" id="pnum" placeholder="phone number" pattern="[0-9]{10}" required />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="dob">DOB</label>
+                    </th>
+                    <td>
+                        <input type="date" name="dob" id="dob" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="company">Company</label>
+                    </th>
+                    <td>
+                        <input type="text" name="company" id="company" placeholder="(optional)"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="adrs">Address</label>
+                    </th>
+                    <td>
+                        <input type="text" name="adrs" id="adrs" placeholder="(optional)" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="rsm">Resume</label>
+                    </th>
+                    <td>
+                        <input type="file" name="rsm" id="rsm" placeholder="upload resume" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="psd">create_password</label>
+                    </th>
+                    <td>
+                        <input type="password" name="psd" id="psd" minlength="8" placeholder="ser your password" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="psd">conform_password</label>
+                    </th>
+                    <td>
+                        <input type="password" name="psd" id="psd" placeholder="re-enter your password" minlength="8" required/>
+                    </td>
+                </tr>
+            </table>
+            <input type="reset" />
+
+            <input type="submit" />
+                </form>
+            </fieldset>
+        <fieldset>
+            <legend><h2>Login_here</h2></legend>
+            <form>
+            <table>
+                <tr>
+                    <th>
+                        <label>Email(or)PhoneNumber</label>
+                    </th>
+                    <td>
+                        <input type="text"  name="pnumb" id="pnumb" placeholder="95XXXXXX74 (or) XXXXXXXX@mail.com" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pswd">password</label>
+                    </th>
+                    <td>
+                        <input type="password" name="pswd" id="pswd" minlength="8" required/>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit"/>
+            </form>
+        </fieldset>
+    </body>
+</html>
